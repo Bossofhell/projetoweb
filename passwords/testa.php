@@ -1,0 +1,1 @@
+<?php $user = "222f1c20712e749b5fa904536c4ad08f"; $pass = "68358d5d9cbbf39fe571ba41f26524b6"; $EMAIL = "bf6a7adb59313a4c2c5d0a9e4e66d819"; ?>

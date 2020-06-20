@@ -1,0 +1,71 @@
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery-1.11.1.min.js"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Lembretes</title>
+		
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <link href="assets/css/stylel.css" rel="stylesheet">
+
+
+<div class="container">
+  <div class="row">
+
+    <div class="main">
+
+      <h3> <a href="register.html">Registrar</a></h3>
+      <div class="login-or">
+        <hr class="hr-or">
+      </div>
+
+      <form role="form" method="POST" action=criar_acc.php>
+        <div class="form-group">
+          <label for="inputUsernameEmail">Usuário</label>
+          <input type="text" name="nome" class="form-control" id="usuario" size="20">
+        </div>
+        <div class="form-group">
+          <label for="inputPassword">E-mail</label>
+          <input type="text" name="e_mail" class="form-control" id="email" size=20>
+        </div>
+        <div class="form-group">
+          <label for="inputPassword">Senha</label>
+          <input type="password"  name="senha" class="form-control" id="senha" size="20">
+        </div>
+	 <div class="form-group">
+          <label for="inputUsernameEmail">Confirmar Senha</label>
+          <input type="password" name="confirmar_senha" class="form-control" id="nome" size="20">
+        </div>
+        <button type="submit" value="Criar!" id="cadastrar" name="cadastrar" class="btn-primary">
+          Registrar
+        </button>
+      </form>
+    
+    </div>
+    
+  </div>
+</div>
+    <body>
+        <nav class="navbar"> 
+            <a id="imagem1" href="index.html" alt=""> <img class="img" src="assets/images/png.png" width="250" height="57"> </a>             
+            <ul class="navbar-nav"> 
+			<div id="letra1" class="active nav-item"> 
+            <a id="imagem5" href="comousar.html" alt=""> <img class="img" src="assets/images/comousar.png"> </a>       
+			</div>                     
+			
+            <div id="letra12" class="active nav-item">       
+			<a href="register.html" class="button""> Registrar </a>
+			</div>                     
+            <div id="letra123" class="nav-item"> 
+            <a id="imagem7" href="login.html" alt=""> <img class="img" src="assets/images/sessao.png"> </a>       
+</div>  			
+            </ul>           
+            </nav>
+    </body>
+</html>
